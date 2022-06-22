@@ -1,1 +1,76 @@
-/* Write your CSS here! */
+header {
+    text-align: center;
+    background-color: paleturquoise;
+}
+
+/* {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+      } */
+      
+#map-of-europe {
+    height: 592;
+    display: block;
+    width: 600;
+    /* float:left;  */
+    display:inline; 
+    margin-bottom: 20px;
+    
+}      
+
+nav {
+    align-items: right;
+}
+    /* border: 2px dashed black;
+    color: red;*/
+    /* float: right;  */
+    /*display:inline;  */
+    /* width: 25%; */
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px; */
+    
+
+/* hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } */
+section {
+    margin-top: 20px;
+}
+.content-photo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #topButton {
+    display:none ; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #topButton:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }

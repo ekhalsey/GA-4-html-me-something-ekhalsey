@@ -2,89 +2,126 @@
 <html>
    <head>
       <title>Emma Halsey - Two Months in Europe</title>
+      <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="styles.css">
    </head>
    <body>
-      <header><h1>Backpacking in Europe</h1></header>
-      <nav>
-         <ul>
-            <a href=""></a>
-         </ul>
-      </nav>
+      <header>
+         <h1>Backpacking in Europe</h1>
+         <h2>some random photos I took</h2>
+         <img id="map-of-europe" src="http://www.holidaylodges-uk.com/images/europemap.jpg" alt="map of europe" usemap="#europemap">
+
+         <map name="europemap">
+            <area shape="rect" coords="122,348,188,359" href="#england" alt="">
+            <area shape="rect" coords="76,234,149,246" href="#scotland" alt="">
+            <area shape="rect" coords="278,481,330,499" href="#italy" alt="">
+            <area shape="rect" coords="307,373,598,232" href="#czechrepublic" alt="">
+            <area shape="rect" coords="253,340,319,352" href="#germany" alt="">
+            <area shape="rect" coords="195,352,238,362" href="#belgium" alt="">
+            <area shape="rect" coords="145,407,227,423" href="#france" alt="">
+            <area shape="rect" coords="90,520,149,536" href="#spain" alt="">
+         </map>
+         <nav>
+            <ul id="nav-list">
+               <li><a href="#england">England</a></li>
+               <li><a href="#scotland">Scotland</a></li>
+               <li><a href="#italy">Italy</a></li>
+               <li><a href="#czechrepublic">Czech Republic</a></li>
+               <li><a href="#germany">Germany</a></li>
+               <li><a href="#belgium">Belgium</a></li>
+               <li><a href="#france">France</a></li>
+               <li><a href="#spain">Spain</a></li>
+            </ul>
+         </nav>
+      </header>
+      
+         
+      <br>
       <main>
          <article>
             <section>
+               <a name="england"></a>
+               
                <h2>
                   England
                </h2>
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_england01.jpeg" alt="">
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_england01.jpeg" alt="">
                <p>
                   went to england
                </p>
             </section>
             <section>
+               <a name="scotland"></a>
+               <hr>
                   <h2>
                      Scotland
                   </h2>
-                  <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_scotland01.jpeg" alt="">
-                  <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_scotland02.jpeg" alt="">
+                  <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_scotland01.jpeg" alt="">
+                  <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_scotland02.jpeg" alt="">
                   <p>
                      went to scotland
                   </p>
             </section>
             <section>
+               <a name="italy"></a>
                <h2>
                   Italy
                </h2>
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_italy01.jpeg" alt="">
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_italy02.jpeg" alt="">
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_italy01.jpeg" alt="">
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_italy02.jpeg" alt="">
                <p>
                   went to italy
                </p>
             </section>
             <section>
+               <a name="czechrepublic"></a>
                <h2>
                   Czech Republic
                </h2>
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_prague01.jpeg" alt="">
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_prague02.jpeg" alt="">
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_prague01.jpeg" alt="">
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_prague02.jpeg" alt="">
                <p>
                   went to Prague
                </p>
             </section>
             <section>
+               <a name="germany"></a>
                <h2>
                   Germany
                </h2>
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_munich01.jpeg" alt="">
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_munich02.jpeg" alt="">
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_berlinwall.jpeg" alt=""> 
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_munich01.jpeg" alt="">
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_munich02.jpeg" alt="">
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_berlinwall.jpeg" alt=""> 
                
-               <button>bad taxidermy</button>
+               <button id="taxiCat">bad taxidermy</button>
                 <p>
                   went to Munich, Berlin, berlin wall, museum of natural history
                </p>
               
             </section>
             <section>
+               <a name="belgium"></a>
                <h2>Belgium</h2>
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_belgianwaffle.jpeg" alt="">
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_belgiumMiniEurope.jpeg" alt="">
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_belgianwaffle.jpeg" alt="">
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_belgiumMiniEurope.jpeg" alt="">
                <p>went to an amusement park called mini europe and of course tried some belgian waffles</p>
             </section>
             <section>
+               <a name="france"></a>
                <h2>France</h2>
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_parisballoon.jpeg" alt="">
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_sainteChappelle.jpeg" alt="">
-               <button>Best Art in the Louvre??</button>
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_parisballoon.jpeg" alt="">
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_sainteChappelle.jpeg" alt="">
+               <button id="louvreMan">Best Art in the Louvre??</button>
                <p>sainte chappelle and seeing paris from above</p>
             </section>
             <section>
+               <a name="spain"></a>
                <h2>Spain</h2>
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_sagradaFamilia.jpeg" alt="">
-               <img src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_rondaBridge.jpeg" alt="">
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_sagradaFamilia.jpeg" alt="">
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_rondaBridge.jpeg" alt="">
             </section>
          </article>
-         
+         <button onclick="topFunction()" id="topButton" title="Go to top">Top</button> 
       </main>
       <footer>
          <p>more travel pics on my insta: @ermaliciousdef</p>
