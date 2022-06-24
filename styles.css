@@ -9,53 +9,23 @@ body {
     margin: 8px auto;
     display: block;
 }
-
+h2 {
+    text-align: center;
+}
 p {
     text-align: center;
 }
 #mainHeading {
     color: red;
 }
-/* {
-        margin-top: 100px;
-        margin-bottom: 100px;
-        margin-right: 150px;
-        margin-left: 80px;
-      } */
       
 #map-of-europe {
-    /* height: 592; */
-    display: block;
-    /* width: 600; */
-    /* float:left;  */
+    /* display: block; */
     display: inline; 
     margin-bottom: 20px;
     
 }      
 
-/* nav {
-    align-items: right;
-} */
-    /* border: 2px dashed black;
-    color: red;*/
-    /* float: right;  */
-    /*display:inline;  */
-    /* width: 25%; */
-    /* padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px; */
-    
-
-/* hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-  } */
 section {
     margin-top: 20px;
 }
@@ -69,6 +39,18 @@ section {
     padding: 5px 5px 5px 5px;
   }
 
+#taxiCatImg {
+    align-items: center;
+}
+
+button {
+    background-color: lightgoldenrodyellow;
+}
+
   .funParagraph {
       color: green;
+  }
+
+  #chocolatePic {
+    transform: rotate(270deg);
   }

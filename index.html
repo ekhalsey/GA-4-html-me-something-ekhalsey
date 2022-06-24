@@ -8,7 +8,7 @@
    <body>
       <header>
          <h1>Backpacking in Europe</h1>
-         <h2 id="mainHeading">Click on the name of a country on the map below!</h2>
+         <h2 id="mainHeading">Click on the name of a country on the map below to jump</h2>
          <h3 >(linked: England, Scotland, Italy, Germany, Czech Republic, Belgium, France, Spain)</h3>
          <picture>
             <img id="map-of-europe" src="http://www.holidaylodges-uk.com/images/europemap.jpg" alt="map of europe" usemap="#europemap" height="592" width="600" >
@@ -23,18 +23,6 @@
             <area shape="rect" coords="145,407,227,423" href="#france" alt="">
             <area shape="rect" coords="90,520,149,536" href="#spain" alt="">
          </map>
-         <!-- <nav>
-            <ul id="nav-list">
-               <li><a href="#england">England</a></li>
-               <li><a href="#scotland">Scotland</a></li>
-               <li><a href="#italy">Italy</a></li>
-               <li><a href="#czechrepublic">Czech Republic</a></li>
-               <li><a href="#germany">Germany</a></li>
-               <li><a href="#belgium">Belgium</a></li>
-               <li><a href="#france">France</a></li>
-               <li><a href="#spain">Spain</a></li>
-            </ul>
-         </nav> -->
       </header>
       
          
@@ -49,7 +37,7 @@
                </h2>
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_england01.jpeg" alt="">
                <p>
-                  In London, we visit all sorts of touristy landmarks, like the Tower Bridge, the Tower of London, the Shard, the Globe, Big Ben, and so on. Near the Globe, we found this old ship.
+                  In London, we visit all sorts of touristy landmarks, like the Tower Bridge, the Tower of London, the Shard, the Globe, Big Ben, and so on. But the only picture I found was from when we explored this old ship near the Globe.
                </p>
             </section>
             <hr>
@@ -73,7 +61,7 @@
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_italy01.jpeg" alt="">
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_italy02.jpeg" alt="">
                <p>
-                  Italy is a beautiful place- see me on the top of a shopping mall in Venice! and visiting Michelangelo's David in Florence.
+                  Italy is beautiful - see me on the roof of a shopping mall in Venice and visiting Michelangelo's David in Florence.
                </p>
             </section>
             <hr>
@@ -84,8 +72,9 @@
                </h2>
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_prague01.jpeg" alt="">
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_prague02.jpeg" alt="">
+               <img class="content-photo" src="http://www.hiddensecretstours.eu/img/w-900,h-750/2016-03-02/0e4d705c92c6e165555b3e00a5ce1bf2.jpg" alt="">
                <p>
-                  These photos were in Prague. I really liked seeing all the cool architecture and trying a trdlnik - a type of pastry shaped like an ice cream cone (yes, with ice cream in it).
+                  These photos were in Prague. I really liked seeing all the cool architecture and trying a trdlnik - a type of pastry baked around a stick so its hollow = helloooooo ice cream :)
                </p>
             </section>
             <hr>
@@ -98,11 +87,21 @@
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_munich02.jpeg" alt="">
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_berlinwall.jpeg" alt=""> 
                
-               <button id="taxiCat">bad taxidermy</button>
-                <p>
-                  Some highlights of Germany: the Rathaus-Glockenspiel in Munich (first picture), Berlin wall (third picture), Museum of Natural History(in Berlin).
-               </p>
-              
+               
+                  <p>Some highlights of Germany:<br>First picture: the Rathaus-Glockenspiel in the Marienplatz, Munich
+                  <br>Second picture: Hall of Antiquities in the Munich Residenz, the ancient city castle in Central Munich
+                  <br>Third Picture: Berlin wall
+                  <br>We also visited the Museum of Natural History in Berlin</p> 
+               <button id="taxiCat">Museum of Natural History: World's Best Taxidermy? Click at own risk</button>
+               <script>
+               let catButton = document.getElementById("taxiCat");
+               
+               catButton.addEventListener("click", event => {
+                  window.document.body.innerHTML = '<img id="taxiCatImg" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_berlinBadTaxidermy.jpeg" height="300"></img> <button onClick="window.location.reload();">Told you so</button>';
+               });
+               </script>
+                
+                 
             </section>
             <hr>
             <section>
@@ -110,7 +109,8 @@
                <h2>Belgium</h2>
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_belgianwaffle.jpeg" alt="">
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_belgiumMiniEurope.jpeg" alt="">
-               <p>Went to an amusement park called Mini Europe, which made us feel like we were seeing many more famous landmarks than we actually did lol. And of course had to have some Belgian waffles</p>
+               <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_miniEuropePisa.jpeg" alt="">
+               <p>Near Brussels, we visited an amusement park called Mini Europe, which made us feel like we were seeing a record number of famous landmarks in an hour/what it would feel like to visit Europe if we were 25x taller lol. And of course had to have some Belgian waffles</p>
             </section>
             <hr>
             <section>
@@ -118,7 +118,14 @@
                <h2>France</h2>
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_parisballoon.jpeg" alt="">
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_sainteChappelle.jpeg" alt="">
-               <button id="louvreMan">Best Art in the Louvre??</button>
+               <button id="louvreManButton">Best Art in the Louvre??</button>
+               <script>
+                  let franceButton = document.getElementById("louvreManButton");
+               
+                  franceButton.addEventListener("click", event => {
+                     window.document.body.innerHTML = '<img id="louvreManImg" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_louvreMan.jpeg" height="500"></img> <button onClick="window.location.reload();">You&apos;re right, He is beauitful</button>';
+                  });
+               </script>
                <p class="funParagraph" id="testP">I LOVED the stained glass in Sainte Chappelle and if you want to see Paris from above, but don't like climbing hundreds of stairs in the Eiffel Tower, take this tethered hot air ballon!</p>
             </section>
             <hr>
@@ -129,10 +136,16 @@
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_rondaBridge.jpeg" alt="">
                <p>Spain has some amazing architecture. Pictured: the Ronda Bridge and La Sagrada Familia</p>
             </section>
+            <hr>
+            <aside>
+               <h2>Tasty Souvenirs</h2>
+               <p>Every country we visited, we bought some chocolate. At the end of the trip, we had a Chocolate of Europe tasting :)) yum</p>
+               <img class="content-photo" id="chocolatePic" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_chocolate.jpeg" alt="">
+            </aside>
          </article> 
       </main>
       <footer>
-         <p>more travel pics on my insta: @ermaliciousdef</p>
+         <p>more old travel pics on my insta: @ermaliciousdef</p>
       </footer>
    </body>
 </html>
