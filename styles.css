@@ -1,8 +1,21 @@
-header {
+header, footer {
     text-align: center;
     background-color: paleturquoise;
+    
+}
+body {
+    background-color: lightgray;
+    max-width: 1024px;
+    margin: 8px auto;
+    display: block;
 }
 
+p {
+    text-align: center;
+}
+#mainHeading {
+    color: red;
+}
 /* {
         margin-top: 100px;
         margin-bottom: 100px;
@@ -11,18 +24,18 @@ header {
       } */
       
 #map-of-europe {
-    height: 592;
+    /* height: 592; */
     display: block;
-    width: 600;
+    /* width: 600; */
     /* float:left;  */
-    display:inline; 
+    display: inline; 
     margin-bottom: 20px;
     
 }      
 
-nav {
+/* nav {
     align-items: right;
-}
+} */
     /* border: 2px dashed black;
     color: red;*/
     /* float: right;  */
@@ -53,24 +66,9 @@ section {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding: 5px 5px 5px 5px;
   }
 
-  #topButton {
-    display:none ; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
-  
-  #topButton:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+  .funParagraph {
+      color: green;
   }

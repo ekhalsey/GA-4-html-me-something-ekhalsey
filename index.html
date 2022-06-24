@@ -8,20 +8,22 @@
    <body>
       <header>
          <h1>Backpacking in Europe</h1>
-         <h2>some random photos I took</h2>
-         <img id="map-of-europe" src="http://www.holidaylodges-uk.com/images/europemap.jpg" alt="map of europe" usemap="#europemap">
-
+         <h2 id="mainHeading">Click on the name of a country on the map below!</h2>
+         <h3 >(linked: England, Scotland, Italy, Germany, Czech Republic, Belgium, France, Spain)</h3>
+         <picture>
+            <img id="map-of-europe" src="http://www.holidaylodges-uk.com/images/europemap.jpg" alt="map of europe" usemap="#europemap" height="592" width="600" >
+         </picture>
          <map name="europemap">
             <area shape="rect" coords="122,348,188,359" href="#england" alt="">
             <area shape="rect" coords="76,234,149,246" href="#scotland" alt="">
             <area shape="rect" coords="278,481,330,499" href="#italy" alt="">
-            <area shape="rect" coords="307,373,598,232" href="#czechrepublic" alt="">
+            <area shape="rect" coords="307,373,376,385" href="#czechrepublic" alt="">
             <area shape="rect" coords="253,340,319,352" href="#germany" alt="">
             <area shape="rect" coords="195,352,238,362" href="#belgium" alt="">
             <area shape="rect" coords="145,407,227,423" href="#france" alt="">
             <area shape="rect" coords="90,520,149,536" href="#spain" alt="">
          </map>
-         <nav>
+         <!-- <nav>
             <ul id="nav-list">
                <li><a href="#england">England</a></li>
                <li><a href="#scotland">Scotland</a></li>
@@ -32,7 +34,7 @@
                <li><a href="#france">France</a></li>
                <li><a href="#spain">Spain</a></li>
             </ul>
-         </nav>
+         </nav> -->
       </header>
       
          
@@ -47,21 +49,22 @@
                </h2>
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_england01.jpeg" alt="">
                <p>
-                  went to england
+                  In London, we visit all sorts of touristy landmarks, like the Tower Bridge, the Tower of London, the Shard, the Globe, Big Ben, and so on. Near the Globe, we found this old ship.
                </p>
             </section>
+            <hr>
             <section>
                <a name="scotland"></a>
-               <hr>
                   <h2>
                      Scotland
                   </h2>
                   <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_scotland01.jpeg" alt="">
                   <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_scotland02.jpeg" alt="">
                   <p>
-                     went to scotland
+                     The highlight of Scotland was definitely the Isle of Skye. Pictured here are an old tower ruin by the water and a &quotfairie glen&quot with a spiral on the ground.
                   </p>
             </section>
+            <hr>
             <section>
                <a name="italy"></a>
                <h2>
@@ -70,9 +73,10 @@
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_italy01.jpeg" alt="">
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_italy02.jpeg" alt="">
                <p>
-                  went to italy
+                  Italy is a beautiful place- see me on the top of a shopping mall in Venice! and visiting Michelangelo's David in Florence.
                </p>
             </section>
+            <hr>
             <section>
                <a name="czechrepublic"></a>
                <h2>
@@ -81,9 +85,10 @@
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_prague01.jpeg" alt="">
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_prague02.jpeg" alt="">
                <p>
-                  went to Prague
+                  These photos were in Prague. I really liked seeing all the cool architecture and trying a trdlnik - a type of pastry shaped like an ice cream cone (yes, with ice cream in it).
                </p>
             </section>
+            <hr>
             <section>
                <a name="germany"></a>
                <h2>
@@ -95,33 +100,36 @@
                
                <button id="taxiCat">bad taxidermy</button>
                 <p>
-                  went to Munich, Berlin, berlin wall, museum of natural history
+                  Some highlights of Germany: the Rathaus-Glockenspiel in Munich (first picture), Berlin wall (third picture), Museum of Natural History(in Berlin).
                </p>
               
             </section>
+            <hr>
             <section>
                <a name="belgium"></a>
                <h2>Belgium</h2>
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_belgianwaffle.jpeg" alt="">
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_belgiumMiniEurope.jpeg" alt="">
-               <p>went to an amusement park called mini europe and of course tried some belgian waffles</p>
+               <p>Went to an amusement park called Mini Europe, which made us feel like we were seeing many more famous landmarks than we actually did lol. And of course had to have some Belgian waffles</p>
             </section>
+            <hr>
             <section>
                <a name="france"></a>
                <h2>France</h2>
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_parisballoon.jpeg" alt="">
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_sainteChappelle.jpeg" alt="">
                <button id="louvreMan">Best Art in the Louvre??</button>
-               <p>sainte chappelle and seeing paris from above</p>
+               <p class="funParagraph" id="testP">I LOVED the stained glass in Sainte Chappelle and if you want to see Paris from above, but don't like climbing hundreds of stairs in the Eiffel Tower, take this tethered hot air ballon!</p>
             </section>
+            <hr>
             <section>
                <a name="spain"></a>
                <h2>Spain</h2>
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_sagradaFamilia.jpeg" alt="">
                <img class="content-photo" src="/Users/EmmaHalsey/Desktop/launchcode/GA4/GA-4-html-me-something-ekhalsey/images/img_rondaBridge.jpeg" alt="">
+               <p>Spain has some amazing architecture. Pictured: the Ronda Bridge and La Sagrada Familia</p>
             </section>
-         </article>
-         <button onclick="topFunction()" id="topButton" title="Go to top">Top</button> 
+         </article> 
       </main>
       <footer>
          <p>more travel pics on my insta: @ermaliciousdef</p>
