@@ -3,6 +3,7 @@ header, footer {
     background-color: paleturquoise;
     
 }
+
 body {
     background-color: lightgray;
     max-width: 1024px;
@@ -10,12 +11,15 @@ body {
     /* margin: auto; */
     display: block;
 }
+
 h2 {
     text-align: center;
 }
+
 p {
     text-align: center;
 }
+
 #mainHeading {
     color: red;
 }
@@ -30,6 +34,7 @@ p {
 section {
     margin-top: 20px;
 }
+
 .content-photo {
     max-width: 100%;
     height: auto;
@@ -48,10 +53,10 @@ button {
     background-color: lightgoldenrodyellow;
 }
 
-  .funParagraph {
+.funParagraph {
       color: green;
   }
 
-  #chocolatePic {
+#chocolatePic {
     transform: rotate(270deg);
   }
